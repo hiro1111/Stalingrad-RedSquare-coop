@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject deadRus
+ObjectTemplate.geometry deadRus
+ObjectTemplate.HasCollisionPhysics 1

@@ -1,0 +1,115 @@
+rem
+rem *** StationaryDp1928_mg ***
+rem
+ObjectTemplate.create PlayerControlObject Stationary_Dp1928
+ObjectTemplate.networkableInfo Stationary_mg_BodyInfo
+ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
+ObjectTemplate.aiTemplate Stationary_Dp1928T
+ObjectTemplate.geometry tripod_stick_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 45
+ObjectTemplate.MaxHitPoints 45
+ObjectTemplate.explosionForceDamage 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.Material 30
+ObjectTemplate.timetoliveafterdeath 0
+Objecttemplate.GUIIndex 80
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_Dp1928.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_7,62mmDP.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryDp1928TPoint
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate StationaryDp1928TSeat
+ObjectTemplate.setPosition 0/0/-0.95
+ObjectTemplate.addTemplate StationaryDp1928TEntry
+ObjectTemplate.setPosition 0/-0.1/-1
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+
+
+rem
+rem *** StationaryDp1928Tpoint ***
+rem
+ObjectTemplate.create RotationalBundle StationaryDp1928TPoint
+ObjectTemplate.networkableInfo Stationary_mg_TurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryDp1928TRotation
+rem -------------------------------------
+ObjectTemplate.setMinRotation -60/0/0
+ObjectTemplate.setMaxRotation 60/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw 4
+ObjectTemplate.setInputToPitch 5
+
+rem
+rem *** StationaryDp1928TRotation ***
+rem
+ObjectTemplate.create RotationalBundle StationaryDp1928TRotation
+ObjectTemplate.networkableInfo Stationary_mg_TurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryDp1928THolder
+ObjectTemplate.setPosition 0/-0/0.085
+ObjectTemplate.addTemplate DT1928_unlimited
+ObjectTemplate.setPosition 0/0.09/0.1
+ObjectTemplate.setRotation 0/-2/0
+ObjectTemplate.addTemplate WillyHorn
+ObjectTemplate.setPosition 0/0.09/0.1
+ObjectTemplate.setRotation 0/-2/0
+ObjectTemplate.addTemplate StationaryDp1928TCamera
+ObjectTemplate.setPosition 0/0.1705/-0.32
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-70/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToYaw 4
+ObjectTemplate.setInputToPitch 5
+
+ObjectTemplate.create SimpleObject StationaryDp1928THolder
+ObjectTemplate.geometry tripod_stick_2_m1
+
+rem
+rem *** StationaryDp1928TCamera ***
+rem
+ObjectTemplate.create Camera StationaryDp1928TCamera
+rem -------------------------------------
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PINone
+ObjectTemplate.setInputToPitch c_PINone
+ObjectTemplate.setInputToRoll c_PINone
+ObjectTemplate.setHasTarget 0
+ObjectTemplate.OutsideHudOffset 0/0.05/0
+rem
+rem *** StationaryDp1928TEntry ***
+rem
+ObjectTemplate.create EntryPoint StationaryDp1928TEntry
+ObjectTemplate.setEntryRadius 1.1
+
+rem
+rem *** StationaryDp1928TSeat ***
+rem
+ObjectTemplate.create SeatObject StationaryDp1928TSeat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationLowerBody Lb_CrouchTripodGunner

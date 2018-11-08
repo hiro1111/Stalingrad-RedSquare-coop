@@ -1,0 +1,26 @@
+ObjectTemplate.create Kit 1Rus_CloseQuartersPPsh41
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Kit_Russian_PPSh
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate redhut_m1
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_tt33.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_ppsh.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 0 "kits/Icon_PPshRuss_selected.tga"
+ObjectTemplate.setKitName 0 "CLOSE QUARTERS"
+ObjectTemplate.setKitActiveName 0 "ACTIVE"
+
+ObjectTemplate.addTemplate PPSh
+ObjectTemplate.addTemplate Tt33
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.aitemplate Assault

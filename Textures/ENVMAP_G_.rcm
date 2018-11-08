@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_04.dds
+NegativeX = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_02.dds
+PositiveY = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_05.dds
+NegativeY = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_06.dds
+PositiveZ = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_03.dds
+NegativeZ = fh\levels\Battle_of_Stalingrad_winter\Textures\env_Battle_of_Stalingrad_winter_01.dds

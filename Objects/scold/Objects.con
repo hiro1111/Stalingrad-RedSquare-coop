@@ -1,0 +1,86 @@
+ObjectTemplate.create HandFireArms scold
+ObjectTemplate.itemIndex 6
+ObjectTemplate.projectileTemplate Melee_Scold_Projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.fireOnce c_True
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.GUIIndex 83
+ObjectTemplate.setHudAmmoType ATNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/scold.ssc
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.1
+ObjectTemplate.aiTemplate scoldAI
+ObjectTemplate.addFireArmsPosition 0/0/0.15 0/0/0
+
+ObjectTemplate.velocity 80
+
+ObjectTemplate.createSkeleton animations/KnifeAxis.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate scoldLod
+
+ObjectTemplate.addTemplate scoldYellFireArm
+
+rem *** Objects ***
+ObjectTemplate.create SimpleObject scoldSimple
+ObjectTemplate.geometry Shad_scold
+
+ObjectTemplate.create AnimatedBundle scoldComplex
+ObjectTemplate.geometry scold
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/KnifeAxis.ske
+
+ObjectTemplate.create LodObject scoldLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate scoldComplex
+ObjectTemplate.addTemplate scoldSimple
+
+
+
+
+
+rem ----------------------------------------------------------
+rem Firearm: scoldYellFireArm (knife part)
+rem ----------------------------------------------------------
+ObjectTemplate.create FireArms scoldYellFireArm
+ObjectTemplate.projectileTemplate PeoplesbraveryProjectile
+rem ObjectTemplate.projectileTemplate YellProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.fireOnce 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.fireDelay 0
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.GUIIndex 83
+ObjectTemplate.velocity 10
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/scoldYell.ssc
+
+ObjectTemplate.create Projectile PeoplesbraveryProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/0.01/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 60
+ObjectTemplate.addTemplate PeoplesbraverySupplyDepot
+
+rem *** PeoplesbraverySupplyDepot ***
+ObjectTemplate.create SupplyDepot PeoplesbraverySupplyDepot
+ObjectTemplate.radius 50
+ObjectTemplate.team 2
+ObjectTemplate.setHealth -1 100 0

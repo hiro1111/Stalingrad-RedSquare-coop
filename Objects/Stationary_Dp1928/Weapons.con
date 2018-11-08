@@ -1,0 +1,39 @@
+
+rem *** WillyHorn ***
+ObjectTemplate.create FireArms WillyHorn
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/WillyHorn.ssc
+ObjectTemplate.projectileTemplate PeoplesbraveryWideProjectile
+rem ObjectTemplate.projectileTemplate ShipHornDummyProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.AltFireOnce 1
+ObjectTemplate.reloadtime 1
+ObjectTemplate.roundOfFire 0.2
+ObjectTemplate.AmmoType	6
+ObjectTemplate.velocity 0
+
+ObjectTemplate.create Projectile PeoplesbraveryWideProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/0.01/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 60
+ObjectTemplate.addTemplate PeoplesbraveryWideSupplyDepot
+
+rem *** PeoplesbraverySupplyDepot ***
+ObjectTemplate.create SupplyDepot PeoplesbraveryWideSupplyDepot
+ObjectTemplate.radius 100
+ObjectTemplate.team 2
+ObjectTemplate.setHealth -1 100 0

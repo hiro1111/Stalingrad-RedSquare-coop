@@ -1,0 +1,9 @@
+ObjectTemplate.create Bundle eod_fogSmall
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_fogSmall
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 10/10.5/10
+ObjectTemplate.setRotation 0/0/0

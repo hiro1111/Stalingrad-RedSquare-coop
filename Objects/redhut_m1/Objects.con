@@ -1,0 +1,4 @@
+ObjectTemplate.create KitPart redhut_m1
+ObjectTemplate.geometry redhut_m1
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0

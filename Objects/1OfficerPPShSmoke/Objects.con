@@ -1,0 +1,27 @@
+ObjectTemplate.create Kit 1Rus_OfficerPPShSmoke
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Kit_Bomberspotter_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate RussKomissarCap
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_tt33.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_rdg33.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_SmokeGren_RDG2.tga"
+
+ObjectTemplate.setKitIcon 0 "kits/icon_russofficer_selected.tga"
+ObjectTemplate.setKitName 0 "OFFICER"
+ObjectTemplate.setKitActiveName 0 "ACTIVE OFFICERS"
+
+ObjectTemplate.addTemplate Tt33
+ObjectTemplate.addTemplate RDG33
+ObjectTemplate.addTemplate SmokeGren_RDG2
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.aitemplate Assault

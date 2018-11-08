@@ -1,0 +1,34 @@
+rem ===== COMPRESS = GER
+ObjectTemplate.create Kit 5German_AmmoK98Ammo88mm
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+objectTemplate.geometry Kit_AmmoPack88x571R_kit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate German_Helmets
+ObjectTemplate.setRandomGeometries 9
+ObjectTemplate.addTemplate Bacpac_Big_ger
+ObjectTemplate.addTemplate German_hippack_B
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_engineer_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_GermanShovel.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_m98.tga"
+ObjectTemplate.addWeaponIcon "Ammo/Icon_cannon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 4 "kits/Icon_K98GerEngineer_selected.tga"
+ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
+ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
+
+ObjectTemplate.addTemplate k98
+ObjectTemplate.addTemplate GermanShovel
+
+ObjectTemplate.addTemplate AmmoPack88x571
+
+ObjectTemplate.aiTemplate  Engineer
+
+

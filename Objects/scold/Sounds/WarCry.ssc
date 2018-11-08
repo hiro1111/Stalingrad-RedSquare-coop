@@ -1,0 +1,111 @@
+load @ROOT/bf1942/levels/Stalingrad_RedSquare/Sound/@RTD/WarCry1.wav
+minDistance 50
+randomStartPitch 0.05 / 0.05
+trigger Volume
+dopplerOff
+priority 2
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 0
+	param 0
+	param 1.9
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 200
+	param 1.9
+	param -1	
+endEffect
+
+load @ROOT/bf1942/levels/Stalingrad_RedSquare/Sound/@RTD/WarCry2.wav
+minDistance 50
+randomStartPitch 0.05 / 0.05
+trigger Volume
+dopplerOff
+priority 2
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 0
+	param 0
+	param 1.9
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 200
+	param 1.9
+	param -1	
+endEffect
+
+load @ROOT/bf1942/levels/Stalingrad_RedSquare/Sound/@RTD/WarCry3.wav
+minDistance 50
+randomStartPitch 0.05 / 0.05
+trigger Volume
+dopplerOff
+priority 2
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 0
+	param 0
+	param 1.9
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 200
+	param 1.9
+	param -1	
+endEffect
+
+load @ROOT/bf1942/levels/Stalingrad_RedSquare/Sound/@RTD/WarCry4.wav
+minDistance 50
+randomStartPitch 0.05 / 0.05
+trigger Volume
+dopplerOff
+priority 2
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 0
+	param 0
+	param 1.9
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 0
+	param 200
+	param 1.9
+	param -1	
+endEffect

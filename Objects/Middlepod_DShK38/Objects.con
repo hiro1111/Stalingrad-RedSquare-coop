@@ -1,0 +1,79 @@
+
+
+ObjectTemplate.create PlayerControlObject Middlepod_DShK38
+ObjectTemplate.networkableInfo Middlepod_DShK38_BodyInfo
+ObjectTemplate.aiTemplate Middlepod_DShK38
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 75
+ObjectTemplate.MaxHitPoints 75
+ObjectTemplate.explosionForceDamage 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.Material 31
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lod_Middlepod_DShK38
+ObjectTemplate.addTemplate Middlepod_DShK38_Entry
+ObjectTemplate.setPosition 0/1/-1
+ObjectTemplate.addTemplate WillyHorn
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0.5/-1 0/0/0
+Objecttemplate.GUIIndex 81
+ObjectTemplate.setHasTurretIcon 1
+ObjectTemplate.setVehicleIcon "Vehicle/icon_DShK38AA.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_12,7mmDShK38.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+rem ---------------- Scope 1.66x ---------------------
+ObjectTemplate.vehicleFov 0.6
+rem --------------------------------------------------
+
+
+ObjectTemplate.create PlayerControlObject Middlepod_DShK38_Deploy
+ObjectTemplate.networkableInfo Middlepod_DShK38_BodyInfo
+ObjectTemplate.aiTemplate Middlepod_DShK38
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 75
+ObjectTemplate.MaxHitPoints 75
+ObjectTemplate.explosionForceDamage 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+rem ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.Material 31
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lod_Middlepod_DShK38
+ObjectTemplate.addTemplate Middlepod_DShK38_Entry
+ObjectTemplate.setPosition 0/1/-1
+ObjectTemplate.addTemplate TripodMGSupplyDepot
+ObjectTemplate.setPosition 0/1/-0.5
+ObjectTemplate.addTemplate WillyHorn
+ObjectTemplate.destroyOnExit 1
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0.5/-1 0/0/0
+Objecttemplate.GUIIndex 81
+ObjectTemplate.setHasTurretIcon 1
+ObjectTemplate.setVehicleIcon "Vehicle/icon_DShK38AA.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_12,7mmDShK38.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+rem ---------------- Scope 1.66x ---------------------
+ObjectTemplate.vehicleFov 0.6
+rem --------------------------------------------------

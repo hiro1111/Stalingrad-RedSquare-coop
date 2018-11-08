@@ -1,0 +1,30 @@
+rem *** Create Strategies ***
+
+
+
+rem ** Common **
+
+aiStrategy.createStrategy attack
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 3
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite attackPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint 0.1 Owned
+
+rem ** US **
+
+aiStrategy.createStrategy hold4
+aiStrategy.Aggression 0.75
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite hold4Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0
+
+aiStrategy.createStrategy hold5
+aiStrategy.Aggression 0.25
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite hold5Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint  4.0 Owned

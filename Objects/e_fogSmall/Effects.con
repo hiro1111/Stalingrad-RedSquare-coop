@@ -1,0 +1,44 @@
+
+rem *** e_ExFumeFact ***
+ObjectTemplate.create EffectBundle e_fogSmall
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_fogSmall
+ObjectTemplate.setPosition -10/-10/-10
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_fogSmall
+ObjectTemplate.setPosition -8/-10/-10
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_fogSmall
+ObjectTemplate.setPosition -12/-10/-10
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+rem *** Em_ExFumeFact ***
+ObjectTemplate.create Emitter Em_fogSmall
+ObjectTemplate.template Fx_fogSmall
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.intensity CRD_NONE/3/0/0
+
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/0.05/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-5/-0.05/-1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.5/1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.5/0.2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-15/0/0 
+ObjectTemplate.startRotation CRD_UNIFORM/1/0/0
+
+rem *** Fx_ExFumeFact ***
+ObjectTemplate.create SpriteParticle Fx_fogSmall
+ObjectTemplate.timeToLive CRD_UNIFORM/7/0/0
+ObjectTemplate.size CRD_UNIFORM/1.5/1.5/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.texture e_fog1
+ObjectTemplate.initRotation CRD_UNIFORM/0/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NORMAL/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/150/150/150/0|30/150/150/150/150|80/150/150/150/100|100/150/150/150/0

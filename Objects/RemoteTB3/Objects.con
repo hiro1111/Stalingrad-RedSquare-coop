@@ -1,0 +1,228 @@
+rem ===== COMPRESS = RUS
+
+rem *** RemoteTB3 ***
+ObjectTemplate.create PlayerControlObject RemoteTB3
+ObjectTemplate.setNetworkableInfo RemoteTB3BodyInfo
+ObjectTemplate.NameTagOffset 0/-0.415/4.578
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.CullRadiusScale 3
+ObjectTemplate.drag 0
+ObjectTemplate.mass 20000
+ObjectTemplate.inertiaModifier 0.4/0.5/0.6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 15
+ObjectTemplate.explosionDamage 10
+ObjectTemplate.hasArmor 1
+ObjectTemplate.angleMod 1
+ObjectTemplate.speedMod 2
+ObjectTemplate.hitpoints 450
+ObjectTemplate.maxhitpoints 450
+ObjectTemplate.material 25
+ObjectTemplate.criticalDamage 100
+ObjectTemplate.hpLostWhileCriticalDamage 3
+ObjectTemplate.explosionForceMod 5
+ObjectTemplate.hpLostWhileUpSideDown 10
+ObjectTemplate.hpLostWhileDamageFromWater 10
+ObjectTemplate.addArmorEffect 400 em_Bf109Damage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 400 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 350 em_Bf109Damage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 350 em_PlaneDamage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 350 em_Bf109Damage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 350 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 350 em_Bf109Damage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 350 em_PlaneDamage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 300 em_Bf109Damage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 300 em_PlaneDamage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 300 em_Bf109Damage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 300 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 300 em_Bf109Damage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 300 em_PlaneDamage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 300 em_Bf109Damage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 300 em_PlaneDamage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 250 em_Bf109Damage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 250 em_PlaneDamage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 250 em_Bf109Damage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 250 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 250 e_StukaFire 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 250 em_PlaneDamage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 250 em_Bf109Damage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 250 em_PlaneDamage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 200 e_StukaFire -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 200 em_Bf109Damage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 200 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 200 e_StukaFire 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 200 em_PlaneDamage 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 200 em_Bf109Damage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 200 em_PlaneDamage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 150 e_StukaFire -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 150 em_PlaneDamage -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 150 em_Bf109Damage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 150 em_PlaneDamage -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 150 e_StukaFire 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 150 e_StukaFire 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 150 em_PlaneDamage 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 100 e_StukaFire -9.30/-0.71/9.16
+ObjectTemplate.addArmorEffect 100 e_StukaFire -4.50/-1.03/9.58
+ObjectTemplate.addArmorEffect 100 e_StukaFire 3.30/-1.03/9.58
+ObjectTemplate.addArmorEffect 100 e_StukaFire 8.00/-0.71/9.16
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_plane 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.CameraDelayTime 5.0
+ObjectTemplate.CameraDelayDistance 15.0
+ObjectTemplate.destroyOnExit 1
+ObjectTemplate.setForwardMod 35
+ObjectTemplate.ExitSpeedMod 0
+ObjectTemplate.ExitTimer -0.5
+rem -------------------------------------
+ObjectTemplate.addTemplate lodRemoteTB3
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.9/-0.5/-5.2 0/0/0
+ObjectTemplate.GUIIndex 69
+ObjectTemplate.setVehicleIcon "Vehicle/icon_TB3.tga"
+ObjectTemplate.setVehicleIconPos 52/89
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_bomb100.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTBomber
+ObjectTemplate.setToolTipType  TTBomber
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tb3_32x32.tga"
+ObjectTemplate.setMinimapIconSize 32
+
+
+rem *** RemoteTB3Complex ***
+ObjectTemplate.create Bundle RemoteTB3Complex
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.geometry TB3_fus_M1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_Detonator
+ObjectTemplate.setPosition 0/5/0
+ObjectTemplate.addTemplate RemoteTB3_Bombsight_Bundle
+ObjectTemplate.setPosition 0/0/5
+ObjectTemplate.setRotation 0/1/0
+ObjectTemplate.addTemplate RemoteTB3_Body_Wing
+ObjectTemplate.setPosition 0/0/10
+ObjectTemplate.addTemplate RemoteTB3_Body_Wing
+ObjectTemplate.setPosition 0/0/-10
+ObjectTemplate.addTemplate RemoteTB3_Body_Wing
+ObjectTemplate.setPosition -10/0/0
+ObjectTemplate.addTemplate RemoteTB3_Body_Wing
+ObjectTemplate.setPosition 10/0/0
+ObjectTemplate.addTemplate RemoteTB3Floater2
+ObjectTemplate.setPosition 4/10/0
+ObjectTemplate.addTemplate RemoteTB3Floater2
+ObjectTemplate.setPosition -4/10/0
+ObjectTemplate.addTemplate RemoteTB3_EngineFake
+
+ObjectTemplate.addTemplate TB3CockpitGlass
+ObjectTemplate.setPosition -0.61/-1.144/3.898
+ObjectTemplate.addTemplate RemoteTB3_Body_Wing
+ObjectTemplate.setRotation 0/0/-90
+
+ObjectTemplate.addTemplate RemoteTB3_aileron_left
+ObjectTemplate.setPosition -15.993/-0.356/1.812
+ObjectTemplate.setRotation 12.451/-1.134/-7.805
+
+ObjectTemplate.addTemplate RemoteTB3_aileron_right
+ObjectTemplate.setPosition 14.794/-0.356/1.812
+ObjectTemplate.setRotation -12.451/-1.134/7.805
+
+ObjectTemplate.addTemplate RemoteTB3_elevator
+ObjectTemplate.setPosition -0.62/0.156/-12.802
+ObjectTemplate.addTemplate RemoteTB3_rudder
+ObjectTemplate.setPosition -0.627/1.721/-12.791
+ObjectTemplate.setRotation 0/0/-90
+
+ObjectTemplate.addTemplate RemoteTB3_EngineleftOut
+ObjectTemplate.setPosition -9.292/-0.708/9.162
+ObjectTemplate.addTemplate RemoteTB3_EngineleftIn
+ObjectTemplate.setPosition -4.452/-1.032/9.578
+ObjectTemplate.addTemplate RemoteTB3_EnginerightIn
+ObjectTemplate.setPosition 3.263/-1.032/9.578
+ObjectTemplate.addTemplate RemoteTB3_EnginerightOut
+ObjectTemplate.setPosition 8.033/-0.708/9.162
+
+ObjectTemplate.addTemplate RemoteTB3_EngineSounder1
+ObjectTemplate.setPosition -9.292/-0.708/9.162
+ObjectTemplate.addTemplate RemoteTB3_EngineSounder2
+ObjectTemplate.setPosition -4.452/-1.032/9.578
+ObjectTemplate.addTemplate RemoteTB3_EngineSounder3
+ObjectTemplate.setPosition 3.263/-1.032/9.578
+ObjectTemplate.addTemplate RemoteTB3_EngineSounder4
+ObjectTemplate.setPosition 8.033/-0.708/9.162
+
+ObjectTemplate.addTemplate TB3WheelSpokes
+ObjectTemplate.setPosition -4.833/-4.168/6.044
+ObjectTemplate.addTemplate TB3WheelSpokes
+ObjectTemplate.setPosition 3.594/-4.168/6.044
+
+ObjectTemplate.addTemplate RemoteTB3_wheel
+ObjectTemplate.setPosition -4.782/-4.243/6.948
+ObjectTemplate.addTemplate RemoteTB3_wheel
+ObjectTemplate.setPosition -4.782/-4.239/5.212
+ObjectTemplate.addTemplate RemoteTB3_wheel
+ObjectTemplate.setPosition 3.614/-4.243/6.948
+ObjectTemplate.addTemplate RemoteTB3_wheel
+ObjectTemplate.setPosition 3.614/-4.239/5.212
+
+
+ObjectTemplate.addTemplate RemoteTB3_gear_Back_Rotation
+ObjectTemplate.setPosition -0.626/-1.1/-12.844
+
+ObjectTemplate.addTemplate RemoteTB3BombRack
+
+rem ADDED!!
+ObjectTemplate.addTemplate TB3_T-40_TankHook
+
+ObjectTemplate.addTemplate TB3_T-40_Spawner_T-40
+ObjectTemplate.setPosition -0.61/-4.25/5
+ObjectTemplate.setRotation 0/10/0
+
+
+ObjectTemplate.addTemplate TB3_PCO4
+ObjectTemplate.setPosition -8.1108/-2.2/5
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate TB3_PCO5
+ObjectTemplate.setPosition 6.8892/-2.2/5
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate TB3_T-40_Spawn67
+rem -------------------------------------
+
+rem *** TB3_T-40_Spawner_T-40 ***
+ObjectTemplate.create ObjectSpawner TB3_T-40_Spawner_T-40
+ObjectTemplate.setObjectTemplate 1 T-40
+ObjectTemplate.setObjectTemplate 2 T-40
+ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 11
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 5
+ObjectTemplate.team 2
+ObjectTemplate.MaxNrOfObjectSpawned 5
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.teamOnVehicle 1
+
+rem *** TB3_T-40_Spawn67 ***
+ObjectTemplate.create SpawnPoint TB3_T-40_Spawn67
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/-1
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 67
+ObjectTemplate.setEnterOnSpawn 1
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setSpawnAsParaTroper 0

@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh germanbody
+GeometryTemplate.file ../Bf1942/levels/Stalingrad_RedSquare/StandardMesh/germanbody
+GeometryTemplate.setLodDistance 0 0 
+GeometryTemplate.setLodDistance 1 50 
+GeometryTemplate.setLodDistance 2 100 

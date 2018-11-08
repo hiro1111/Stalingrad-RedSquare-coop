@@ -1,0 +1,12 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+
+game.setLoadPicture ../../bf1942/levels/Stalingrad_RedSquare/Menu/stgw.tga
+game.setMultiplayerBriefingObjectives "no ammo"
+
+game.setServerInfoIcon serverInfo_Blue.dds
+game.setMapId "FHSW"
+game.setBackgroundMusic "music/Stalingrad_RedSquare.bik"

@@ -1,0 +1,17 @@
+rem *** Create Prerequisites ***
+
+
+rem *** Chartres ***
+
+rem ** Common **
+
+aiStrategy.createPrerequisite attackPrereq
+aiStrategy.addCondition constantCond			10.0
+
+rem ** German **
+
+aiStrategy.createPrerequisite hold4Prereq
+aiStrategy.addCondition fourFriendlyCPCond		10.0
+
+aiStrategy.createPrerequisite hold5Prereq
+aiStrategy.addCondition fiveFriendlyCPCond		10.0

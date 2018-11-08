@@ -1,0 +1,58 @@
+ObjectTemplate.create Kit 2Rus_AssaultNagant
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Kit_Russian_nagant
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_Bayonet_MosinNagant.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_MosinNagant.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+
+ObjectTemplate.setKitIcon 1 "kits/Icon_NagantRuss_selected.tga"
+ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate MosinNagant
+ObjectTemplate.addTemplate MosinNagantBay
+ObjectTemplate.addTemplate KnifeAllies_ID2
+
+ObjectTemplate.aitemplate Assault
+
+
+beginrem
+ObjectTemplate.create Kit 2Rus_AssaultNagant
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 1 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault
+endrem

@@ -1,0 +1,323 @@
+rem *****************************************************************
+rem *****************************************************************
+rem Weapon Tweak
+rem *****************************************************************
+rem *****************************************************************
+ObjectTemplate.Active SpotterTB3
+ObjectTemplate.numOfMag 1
+
+ObjectTemplate.Active K98
+ObjectTemplate.numOfMag 4
+ObjectTemplate.Active K98Bay
+ObjectTemplate.numOfMag 4
+
+ObjectTemplate.Active MP40
+ObjectTemplate.numOfMag 3
+
+ObjectTemplate.Active GrenadeAxis
+ObjectTemplate.magSize 1
+
+ObjectTemplate.Active PanzerIVGunBarrel
+ObjectTemplate.magSize 20
+rem ObjectTemplate.magSize 122
+ObjectTemplate.Active PanzerIVEngine
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setTorque 0
+
+ObjectTemplate.Active PZIIIJearlyGunBarrel
+ObjectTemplate.magSize 25
+rem ObjectTemplate.magSize 92
+ObjectTemplate.Active PZIIIJearlyEngine
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setTorque 0
+
+ObjectTemplate.Active Panzer38(t)Cannon
+ObjectTemplate.magSize 30
+rem ObjectTemplate.magSize 72
+ObjectTemplate.Active Panzer38(t)Engine
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setTorque 0
+
+ObjectTemplate.Active Coaxial_MG34
+ObjectTemplate.heatAddWhenFire 0.03
+rem ObjectTemplate.heatAddWhenFire 0.01
+ObjectTemplate.Active MG34_bowMG
+ObjectTemplate.heatAddWhenFire 0.03
+rem ObjectTemplate.heatAddWhenFire 0.01
+
+ObjectTemplate.Active Coaxial_Besa
+ObjectTemplate.heatAddWhenFire 0.06
+rem ObjectTemplate.heatAddWhenFire 0.01
+ObjectTemplate.Active Besa_BowMG
+ObjectTemplate.heatAddWhenFire 0.06
+rem ObjectTemplate.heatAddWhenFire 0.01
+
+ObjectTemplate.Active Pak36Cannon
+ObjectTemplate.magSize 30
+ObjectTemplate.Active pak38Gun_AP
+ObjectTemplate.magSize 20
+ObjectTemplate.Active pak38Gun
+ObjectTemplate.magSize 20
+
+ObjectTemplate.Active KampfPistole_TimedHENoLink4x3
+ObjectTemplate.numOfMag 2
+
+ObjectTemplate.Active PT16_Cart_Gun
+ObjectTemplate.magSize 50
+ObjectTemplate.Active PT16_Cart_GunHE
+ObjectTemplate.magSize 50
+ObjectTemplate.Active PT16_Cart_GunAP
+ObjectTemplate.magSize 50
+
+ObjectTemplate.Active PJWagen_T-34_1942_Gun
+ObjectTemplate.magSize 25
+
+rem *****************************************************************
+rem *****************************************************************
+
+ObjectTemplate.create ObjectSpawner germanriflespawner
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 2German_AssaultK98KamEg
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner closequartersspawner
+ObjectTemplate.setObjectTemplate 2 1rus_closequartersppsh41
+ObjectTemplate.setObjectTemplate 1 1german_closequarters_wintermp40
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner riflespawner
+ObjectTemplate.setObjectTemplate 2 1rus_assaultnagant
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner supportfmw35spawner
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 supportfmw35
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner svtsniper
+ObjectTemplate.setObjectTemplate 2 rus_snipersvt40
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.MinSpawnDelay 45
+ObjectTemplate.MaxSpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner radiospawner
+ObjectTemplate.setObjectTemplate 2 oldradio
+ObjectTemplate.setObjectTemplate 1 oldradio
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner kitmgGer
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 4german_supportmg34
+ObjectTemplate.SpawnDelay 125
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner kitmgRus
+ObjectTemplate.setObjectTemplate 2 4rus_supportdp1928
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner mg
+ObjectTemplate.setObjectTemplate 2 stationary_dp1928
+ObjectTemplate.setObjectTemplate 1 stationary_mg34
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 1
+
+
+ObjectTemplate.create ObjectSpawner 1rus_officerppshsmokespawner
+ObjectTemplate.setObjectTemplate 2 1rus_officerppshsmoke
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner sniper
+ObjectTemplate.setObjectTemplate 2 rus_snipernagant
+ObjectTemplate.setObjectTemplate 1 german_sniperk98winter
+ObjectTemplate.MinSpawnDelay 45
+ObjectTemplate.MaxSpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner svt40spawner
+ObjectTemplate.setObjectTemplate 2 1rus_assaultsvt40nog
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner dshk38deploykitspawner
+ObjectTemplate.setObjectTemplate 2 Rus_FortificationDShK38NoMine
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner PTRSkitspawner
+ObjectTemplate.setObjectTemplate 2 3Rus_ATPTRS
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner CNSP_gerMGdeploykitspawner
+ObjectTemplate.setObjectTemplate 2 German_FortificationMg34NoMine
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner TB3Kitspawner
+ObjectTemplate.setObjectTemplate 2 Rus_SpotterNagantTB3
+ObjectTemplate.setObjectTemplate 1 Rus_SpotterNagantTB3
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner sockskit_spawner
+ObjectTemplate.setObjectTemplate 2 3Rus_TankhunterNagantSocks
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner PzIV_static_spawner
+ObjectTemplate.setObjectTemplate 1 PanzerIV
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner PzIII_static_spawner
+ObjectTemplate.setObjectTemplate 1 PZIIIJearly
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner Pz38_static_spawner
+ObjectTemplate.setObjectTemplate 1 Panzer38(t)
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner CNSP_Pak36mobile_spawner
+ObjectTemplate.setObjectTemplate 2 Pak36mobile
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 0
+
+ObjectTemplate.create ObjectSpawner CNSP_Pak38mobile_spawner
+ObjectTemplate.setObjectTemplate 2 Pak38mobile
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 0
+
+ObjectTemplate.create ObjectSpawner CNSP_gerAmmoKitspawner
+ObjectTemplate.setObjectTemplate 2 5German_AmmoK98Ammo88mm
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner mobile45mm_spawner
+ObjectTemplate.setObjectTemplate 2 45mmATGunmobile
+ObjectTemplate.SpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner mobilezis3_spawner
+ObjectTemplate.setObjectTemplate 2 Zis3mobile
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner PT16spawner
+ObjectTemplate.setObjectTemplate 1 PT16
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.teamOnVehicle 1

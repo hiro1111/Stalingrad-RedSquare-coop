@@ -1,0 +1,17 @@
+rem *** Create Conditions ***
+
+rem *** Chartres ***
+
+rem ** attack **
+aiStrategy.createConstantCondition constantCPCond Crisp Equal Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+rem aiStrategy.createConstantCondition constantCond Crisp Equal Both UnitConstant 1.0
+rem aiStrategy.setConditionStrength Required
+
+rem ** hold4 **
+aiStrategy.createConstantCondition fourFriendlyCPCond Crisp Equal Friendly ControlPoint 2
+aiStrategy.setConditionStrength Required
+
+rem ** hold5 **
+aiStrategy.createConstantCondition fiveFriendlyCPCond Crisp Equal Friendly ControlPoint 3
+aiStrategy.setConditionStrength Required

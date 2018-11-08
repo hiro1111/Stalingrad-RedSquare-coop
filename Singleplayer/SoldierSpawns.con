@@ -1,0 +1,112 @@
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn1
+Object.absolutePosition 480.096/75.7129/375.94
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn2
+Object.absolutePosition 463.891/76.28/375.885
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn3
+Object.absolutePosition 492.095/76.6031/376.098
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn4
+Object.absolutePosition 472.146/75.9174/368.528
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn5
+Object.absolutePosition 511.941/75.746/359.807
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn6
+Object.absolutePosition 447.338/75.7824/367.958
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn7
+Object.absolutePosition 472.20/76.24/360.04
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn8
+Object.absolutePosition 491.93/76.24/359.77
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn9
+Object.absolutePosition 447.34/76.24/357.96
+rem
+rem ***  ***
+rem
+Object.create alliedbase_spawn10
+Object.absolutePosition 508.93/76.24/349.94
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn1
+Object.absolutePosition 501.681/75.746/641.975
+Object.rotation -93/0/0
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn2
+Object.absolutePosition 470.981/75.746/643.065
+Object.rotation 172.8/0/0
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn3
+Object.absolutePosition 457.598/76.5142/653.509
+Object.rotation 96/0/0
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn4
+Object.absolutePosition 507.249/76.3251/657.161
+Object.rotation 248/0/0
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn5
+Object.absolutePosition 496.3/76.5953/653.475
+Object.rotation -95.3/0/0
+rem
+rem ***  ***
+rem
+Object.create axisbase_spawn6
+Object.absolutePosition 475.881/75.9143/656.804
+Object.rotation 189/0/0
+beginrem
+rem
+rem ***  ***
+rem
+Object.create front1spawn
+Object.absolutePosition 492.937/76.5245/602.99
+Object.rotation -182/0/0
+rem
+rem ***  ***
+rem
+Object.create front2spawn
+Object.absolutePosition 503.909/77.8031/569.656
+Object.rotation 182/0/0
+rem
+rem ***  ***
+rem
+Object.create front3spawn
+Object.absolutePosition 488.987/77.498/570.048
+Object.rotation -177/0/0
+rem
+rem ***  ***
+rem
+Object.create front4spawn
+Object.absolutePosition 517.598/76.1369/598.589
+Object.rotation 224/0/0
+endrem

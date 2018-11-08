@@ -1,0 +1,92 @@
+Rem
+Rem PreCache Objects
+Rem
+
+Object.active __BF_NONE__
+Object.create 1Rus_AssaultNagant
+Object.delete
+Object.create 1Rus_OfficerPPShSmoke
+Object.delete
+Object.create 1Rus_CloseQuartersPPsh41
+Object.delete
+Object.create 1German_CloseQuarters_WinterMp40
+Object.delete
+Object.create 3German_GrenadierK98RGWinter
+Object.delete
+Object.create RDG33
+Object.delete
+Object.create RDG33Projectile
+Object.delete
+Object.create GrenadeAxis
+Object.delete
+Object.create GrenadeAxisProjectile
+Object.delete
+Object.create Stationary_Dp1928
+Object.delete
+Object.create TT33
+Object.delete
+Object.create WalterP38
+Object.delete
+Object.create DP
+Object.delete
+Object.create 4Rus_SupportDP1928
+Object.delete
+Object.create Oldradio
+Object.delete
+Object.create BinocularsProjectile
+Object.delete
+Object.create FMW35
+Object.delete
+Object.create K98
+Object.delete
+Object.create K98Sniper
+Object.delete
+Object.create K98Bay
+Object.delete
+Object.create K98Grenade
+Object.delete
+Object.create LandmineProjectile
+Object.delete
+Object.create Mg34
+Object.delete
+Object.create MosinNagant
+Object.delete
+Object.create NagantSniper
+Object.delete
+Object.create MosinNagantBay
+Object.delete
+Object.create Mp40
+Object.delete
+Object.create PPSh
+Object.delete
+Object.create SmokeGren_RDG2
+Object.delete
+Object.create SmokeGren_RDG2Projectile
+Object.delete
+Object.create SVT40
+Object.delete
+Object.create SVT40Bay
+Object.delete
+Object.create 4German_SupportMg34
+Object.delete
+Object.create SupportFMW35
+Object.delete
+Object.create German_SniperK98Winter
+Object.delete
+Object.create 1Rus_AssaultSVT40noG
+Object.delete
+Object.create Rus_SniperNagant
+Object.delete
+Object.create MultiPlayerFreeCamera
+Object.delete
+Object.create Stationary_mg34
+Object.delete
+Object.create axisbase
+Object.delete
+Object.create alliedbase
+Object.delete
+Object.create red_square
+Object.delete
+Object.create front_point
+Object.delete
+Object.active __BF_NONE__

@@ -1,0 +1,48 @@
+rem *************************
+rem *** smoke effect ***
+rem *************************
+ObjectTemplate.create EffectBundle e_smoke_white
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript sounds/smokegrenade.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_smoke_white
+ObjectTemplate.timeToLive CRD_NONE/30/0/0
+ObjectTemplate.setPosition 0/-5/0
+rem -------------------------------------
+
+rem *** Em_ExplGrenade_Smoke ***
+ObjectTemplate.create Emitter Em_smoke_white
+ObjectTemplate.template Fx_smoke_white
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0.5
+ObjectTemplate.lodDistance 180
+ObjectTemplate.delay CRD_UNIFORM/0.7/1.1/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/40/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.1/0.3/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/-0.01/0.01/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-1.9/1.9/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/100/0/0
+
+rem *** Fx_ExplGrenade_Smoke ***
+ObjectTemplate.create SpriteParticle Fx_smoke_white
+ObjectTemplate.timeToLive CRD_NONE/11/0/0
+ObjectTemplate.size CRD_UNIFORM/2.5/3.1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.3|25/1.7|50/2.4|75/2.8|100/3.0
+ObjectTemplate.gravityModifierOverTime 0.001/0.001|0.005/0.005|0.001/0.001
+ObjectTemplate.texture smoke
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.XYSizeRatio CRD_NONE/1.0/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|100/255/255/255/0|0/255/255/255/255|0/255/255/255/255|0/255/255/255/255|0/255/255/255/255|55/255/255/255/255|55/255/255/255/255

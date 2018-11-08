@@ -1,0 +1,32 @@
+ObjectTemplate.create Kit 1German_CloseQuarters_WinterMp40
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_German_MP40
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate German_Helmet
+ObjectTemplate.addTemplate German_hippacks
+ObjectTemplate.setRandomGeometries 9
+ObjectTemplate.addTemplate Chutedisabler
+ObjectTemplate.loadSoundScript sound/SoldierFallingHigh.ssc
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_mp40.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+
+
+ObjectTemplate.setKitIcon 0 "kits/Icon_MP40Ger_selected.tga"
+ObjectTemplate.setKitName 0 "CLOSE QUARTERS"
+ObjectTemplate.setKitActiveName 0 "ACTIVE"
+
+rem *** The order is important, first the best weapons!
+ObjectTemplate.addTemplate MP40
+ObjectTemplate.addTemplate Knife_SG98Bayonet
+
+
+ObjectTemplate.aiTemplate  Assault
+

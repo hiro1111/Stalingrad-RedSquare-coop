@@ -1,0 +1,133 @@
+ObjectTemplate.create Kit 1Rus_AssaultPeoplesbravery
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 0 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 0 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 0 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault
+
+
+ObjectTemplate.create Kit 2Rus_AssaultPeoplesbravery
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 1 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault
+
+
+ObjectTemplate.create Kit 3Rus_AssaultPeoplesbravery
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 2 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 2 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault
+
+
+ObjectTemplate.create Kit 4Rus_AssaultPeoplesbravery
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 3 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault
+
+
+ObjectTemplate.create Kit 5Rus_AssaultPeoplesbravery
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+ObjectTemplate.setKitIcon 4 "kits/icon_RU_Bravery_selected.tga"
+ObjectTemplate.setKitName 4 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate RandomSmokeItem4RDG22
+
+ObjectTemplate.aitemplate Assault

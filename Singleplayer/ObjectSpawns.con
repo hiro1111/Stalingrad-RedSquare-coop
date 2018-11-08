@@ -1,0 +1,536 @@
+rem
+rem ***  ***
+rem
+beginrem
+Object.create mg
+Object.absolutePosition 473.95/76.53/410.95
+Object.rotation -32.78/0/0
+Object.setTeam 2
+endrem
+rem
+rem ***  ***
+rem
+Object.create mg
+Object.absolutePosition 477.504/76.7574/536.779
+Object.rotation -180.54/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create mg
+Object.absolutePosition 499.13/80.744/543.01
+Object.rotation -180.5/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+beginrem
+Object.create mg
+Object.absolutePosition 479.65/76.56/410.59
+Object.rotation 37.45/0/0
+Object.setTeam 2
+endrem
+rem
+rem ***  ***
+rem
+Object.create kitmgRus
+Object.absolutePosition 485.701/76.14/391.247
+Object.rotation -180/82.1/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+rem Object.create kitmgGer
+rem Object.absolutePosition 473.495/76.122/645.38
+rem Object.rotation -174.1/-80.27/0
+rem Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create kitmgGer
+Object.absolutePosition 472.961/76.0943/645.353
+Object.rotation -192.25/-83.55/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create sniper
+Object.absolutePosition 498.086/85.122/597.371
+Object.rotation -26/1.41873e-005/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create mg
+Object.absolutePosition 525.234/76.4634/403.589
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create supportfmw35spawner
+Object.absolutePosition 471.476/75.6979/645.33
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create supportfmw35spawner
+Object.absolutePosition 479.716/75.7151/645.148
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create sniper
+Object.absolutePosition 473.171/85.0032/445.123
+Object.rotation 76.7/-180/-180
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create kitmgRus
+Object.absolutePosition 485.991/76.1094/391.238
+Object.rotation -180/82.1/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create germanriflespawner
+Object.absolutePosition 481.647/76.1368/644.856
+Object.rotation 9.89999/-93.4001/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create germanriflespawner
+Object.absolutePosition 481.378/76.1334/644.89
+Object.rotation 1.99999/-94.6/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create germanriflespawner
+Object.absolutePosition 481.085/76.1471/644.902
+Object.rotation 0/-93.1/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create germanriflespawner
+Object.absolutePosition 480.816/76.1471/644.893
+Object.rotation 0/-96/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create 1rus_officerppshsmokespawner
+Object.absolutePosition 478.138/75.5471/391.25
+Object.rotation 90/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create 1rus_officerppshsmokespawner
+Object.absolutePosition 477.735/75.5471/391.279
+Object.rotation 90/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create 1rus_officerppshsmokespawner
+Object.absolutePosition 478.513/75.5505/391.237
+Object.rotation 90/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 477.46/75.7014/645.191
+Object.rotation 95/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 475.604/75.698/645.214
+Object.rotation 83/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create mg
+Object.absolutePosition 464.057/81.0851/541.934
+Object.rotation -181/-9.17807e-006/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 471.648/75.4031/454.822
+Object.rotation 85/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create svt40spawner
+Object.absolutePosition 462.147/83.9231/463.006
+Object.rotation -150/0/-0.999998
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 467.464/75.4031/454.657
+Object.rotation 52/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 461.201/75.554/462.006
+Object.rotation -217/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create svt40spawner
+Object.absolutePosition 444.684/74.7385/458.699
+Object.rotation 53/179.9/-21.8
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create svt40spawner
+Object.absolutePosition 501.574/85.0786/422.09
+Object.rotation -97/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 448.449/75.436/465.471
+Object.rotation -50.8/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 524.488/75.4511/458.754
+Object.rotation -19/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 477.841/75.4271/457.853
+Object.rotation 108.9/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 480.953/75.4031/450.393
+Object.rotation -16.9/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 481.538/75.4031/454.965
+Object.rotation -121/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 474.505/75.4031/452.649
+Object.rotation 9/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 491.481/75.4511/460.127
+Object.rotation -99/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 485.783/75.4031/450.329
+Object.rotation -52/0/2.77476e-006
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 488.704/75.4031/458.499
+Object.rotation -53/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 487.14/75.4031/447.418
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 497.203/75.4031/463.563
+Object.rotation 129/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 497.328/75.4031/458.559
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 491.23/75.4031/453.328
+Object.rotation -82/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 504.319/75.4031/450.955
+Object.rotation -63/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 499.757/75.4031/453.535
+Object.rotation -135/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 508.93/75.3903/456.857
+Object.rotation -11/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 491.649/75.4031/465.031
+Object.rotation -66/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 465.165/75.406/472.428
+Object.rotation -83/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 461.881/75.5551/478.382
+Object.rotation 0/0/-180
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 481.376/77.0321/491.794
+Object.rotation -169/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 486.885/76.739/495.596
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create svt40spawner
+Object.absolutePosition 486.297/76.1403/391.147
+Object.rotation 0/-80/-90
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create svt40spawner
+Object.absolutePosition 485.48/76.1368/391.155
+Object.rotation 0/-80.0001/-90
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 478.244/75.7117/411.432
+Object.rotation 89.1/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 476.855/75.6945/411.469
+Object.rotation 90/4.80248e-006/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 452.351/78.7426/518.181
+Object.rotation 0/0/-0.0999992
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 511.603/75.4031/449.586
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 507.659/75.4031/451.699
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create riflespawner
+Object.absolutePosition 525.389/75.4031/476.971
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create closequartersspawner
+Object.absolutePosition 475.555/75.698/411.379
+Object.rotation 95/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create radiospawner
+Object.absolutePosition 462.377/77.0728/390.583
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+rem Object.create 1rus_officerppshsmokespawner
+rem Object.absolutePosition 465.846/77.1654/388.229
+rem Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create mg
+Object.absolutePosition 480.417/85.2225/542.529
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create TB3Kitspawner
+Object.absolutePosition 463/76.29/357
+Object.rotation 95/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create PTRSkitspawner
+Object.absolutePosition 465.94/77.21/388.22
+Object.rotation 270/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create dshk38deploykitspawner
+Object.absolutePosition 496.06/78.20/389.46
+Object.rotation 10/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+beginrem
+Object.create CNSP_gerMGdeploykitspawner
+Object.absolutePosition 468.55/76.04/583.99
+Object.rotation 90/0/0
+Object.setOSId 4
+endrem
+rem ***  ***
+rem
+Object.create sockskit_spawner
+Object.absolutePosition 484.27/75.57/352.28
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create sockskit_spawner
+Object.absolutePosition 477.79/75.57/351.97
+Object.setOSId 2
+rem
+rem ***  ***
+beginrem
+Object.create Pz38_static_spawner
+Object.absolutePosition 525.08/76.21/537.51
+Object.rotation 190/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create Pz38_static_spawner
+Object.absolutePosition 441.96/76.21/522.39
+Object.rotation 170/0/0
+Object.setOSId 1
+endrem
+rem ***  ***
+rem
+Object.create CNSP_gerAmmoKitspawner
+Object.absolutePosition 469.871/76.759/584.099
+Object.rotation 0/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create CNSP_gerAmmoKitspawner
+Object.absolutePosition 470.242/76.759/584.099
+Object.rotation 0/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create CNSP_Pak36mobile_spawner
+Object.absolutePosition 473.838/75.753/583.807
+Object.rotation 90/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create mobile45mm_spawner
+Object.absolutePosition 450.41/76.22/425.35
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create mobile45mm_spawner
+Object.absolutePosition 512.1/76.21/413.12
+Object.rotation 90/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create mobilezis3_spawner
+Object.absolutePosition 473.06/76.05/434.47
+Object.rotation -90/0/0
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create mobilezis3_spawner
+Object.absolutePosition 516.75/76.1/433.05
+Object.rotation -10/0/0
+Object.setOSId 8
+rem
+rem ***  ***
+rem
+Object.create PT16spawner
+Object.absolutePosition 495.54/78.8492/569.87
+Object.rotation 90.46/0/0
+Object.setOSId 3

@@ -1,0 +1,17 @@
+
+rem *** RadioTB3_GunBarrel ***
+ObjectTemplate.create FireArms RadioTB3_GunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+rem -------------------------------------
+ObjectTemplate.projectileTemplate RemoteTB3
+ObjectTemplate.projectilePosition 0/150/-200
+ObjectTemplate.setHasMag 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.velocity 60
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 100
+ObjectTemplate.roundOfFire 100000
+ObjectTemplate.disableWhenFired 1
+ObjectTemplate.AmmoType	14

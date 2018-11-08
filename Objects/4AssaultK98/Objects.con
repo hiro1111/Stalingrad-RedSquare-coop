@@ -1,0 +1,32 @@
+ObjectTemplate.create Kit 4German_Assault_WinterK98
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_German_rifle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate German_Helmet
+ObjectTemplate.addTemplate German_hippacks
+ObjectTemplate.setRandomGeometries 9
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_Bayonet_K98.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_m98.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+
+ObjectTemplate.setKitIcon 3 "kits/Icon_K98Ger_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_ASSAULT"
+
+rem *** The order is important, first the best weapons!
+ObjectTemplate.addTemplate K98
+ObjectTemplate.addTemplate K98Bay
+ObjectTemplate.addTemplate Knife_SG98Bayonet_ID2
+
+
+ObjectTemplate.aiTemplate  Assault
+

@@ -1,0 +1,8 @@
+
+GeometryTemplate.create StandardMesh redhut_m1
+GeometryTemplate.file redhut_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 60
+GeometryTemplate.setLodDistance 2 300
+
+

@@ -1,0 +1,29 @@
+ObjectTemplate.create Kit 1Rus_AssaultNagant
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Kit_Russian_nagant
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmets
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_Bayonet_MosinNagant.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_MosinNagant.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+
+
+ObjectTemplate.setKitIcon 0 "kits/Icon_NagantRuss_selected.tga"
+ObjectTemplate.setKitName 0 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 0 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate MosinNagant
+ObjectTemplate.addTemplate MosinNagantBay
+ObjectTemplate.addTemplate KnifeAllies_ID2
+
+ObjectTemplate.aitemplate Assault

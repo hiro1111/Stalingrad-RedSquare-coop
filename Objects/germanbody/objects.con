@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject germanbody
+ObjectTemplate.geometry germanbody
+ObjectTemplate.HasCollisionPhysics 1

@@ -1,0 +1,11 @@
+#templateLevel HIGH
+
+	#include smokegrenade_high.ssc
+	
+#templateLevel MEDIUM
+
+	#include smokegrenade_med.ssc
+	
+#templateLevel LOW
+
+	#include smokegrenade_low.ssc

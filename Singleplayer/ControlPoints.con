@@ -1,0 +1,49 @@
+rem
+rem *** OSID:1 0
+rem
+Object.create axisbase
+Object.absolutePosition 487.828/75.5588/654.673
+
+rem
+rem *** OSID:3 50 60
+rem
+Object.create front_point
+Object.absolutePosition 497.366/89.427/600.632
+
+rem
+rem *** OSID:4 50 20
+rem
+Object.create red_square
+Object.absolutePosition 481.51/75.62/502.51
+
+rem
+rem *** OSID:2 0
+rem
+Object.create alliedbase
+Object.absolutePosition 479.808/75.4/356.669
+
+rem
+rem *** OSID:5 0 20
+rem
+Object.create city_west
+Object.absolutePosition 443.59/75.37/508.02
+
+rem
+rem *** OSID:6 0 20
+rem
+Object.create city_east
+Object.absolutePosition 527.91/74.34/506.32
+Object.rotation 180/0/-10
+
+rem
+rem *** OSID:7 0 20
+rem
+Object.create north_west
+Object.absolutePosition 446.92/76.57/544.9
+Object.rotation 0/8/8
+
+rem
+rem *** OSID:8 0 20
+rem
+Object.create north_east
+Object.absolutePosition 519.14/74.61/543.03

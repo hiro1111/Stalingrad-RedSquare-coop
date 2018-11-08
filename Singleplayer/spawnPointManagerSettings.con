@@ -1,0 +1,20 @@
+rem ----------------------------------------- 
+rem ---  group 1  ---
+rem ----------------------------------------- 
+spawnPointManager.group 1
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 2  ---
+rem ----------------------------------------- 
+spawnPointManager.group 2
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 3  ---
+rem ----------------------------------------- 
+spawnPointManager.group 3
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga

@@ -1,0 +1,83 @@
+rem ===== COMPRESS = COMMON
+
+rem *** DShK38_AAmount
+rem *** DShK38_AAmount_Deploy
+
+ObjectTemplate.create PlayerControlObject DShK38_AAmount
+ObjectTemplate.networkableInfo DShK38_AABodyInfo
+ObjectTemplate.setSoldierExitLocation 0/1/-0.5 0/0/0
+ObjectTemplate.aiTemplate DShK38_AA
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setHasMobilePhysics 0
+ObjectTemplate.explosionForceDamage 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 75
+ObjectTemplate.MaxHitPoints 75
+ObjectTemplate.Material 31
+rem ObjectTemplate.Material 30
+ObjectTemplate.timetoliveafterdeath 2
+ObjectTemplate.timeToStartFadeAfterDeath 1.5
+ObjectTemplate.geometry DShK38_AA_dummy_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodDShK38_AA
+ObjectTemplate.addTemplate WillyHorn
+rem -------------------------------------
+Objecttemplate.GUIIndex 81
+ObjectTemplate.setHasTurretIcon 1
+ObjectTemplate.setVehicleIcon "Vehicle/icon_DShK38AA.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_12,7mmDShK38.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+rem ---------------- Scope 1.43x ---------------------
+rem ObjectTemplate.vehicleFov 0.7
+rem --------------------------------------------------
+
+ObjectTemplate.create PlayerControlObject DShK38_AAmount_Deploy
+ObjectTemplate.networkableInfo DShK38_AABodyInfo
+ObjectTemplate.setSoldierExitLocation 0/1/-0.5 0/0/0
+ObjectTemplate.aiTemplate DShK38_AA
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setHasMobilePhysics 0
+ObjectTemplate.explosionForceDamage 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 75
+ObjectTemplate.MaxHitPoints 75
+ObjectTemplate.Material 31
+rem ObjectTemplate.Material 30
+ObjectTemplate.timetoliveafterdeath 2
+ObjectTemplate.timeToStartFadeAfterDeath 1.5
+ObjectTemplate.geometry DShK38_AA_dummy_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodDShK38_AA
+ObjectTemplate.addTemplate TripodMGSupplyDepot
+ObjectTemplate.setPosition 0/1/-0.5
+ObjectTemplate.addTemplate WillyHorn
+ObjectTemplate.destroyOnExit 1
+rem -------------------------------------
+Objecttemplate.GUIIndex 81
+ObjectTemplate.setHasTurretIcon 1
+ObjectTemplate.setVehicleIcon "Vehicle/icon_DShK38AA.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_12,7mmDShK38.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+rem ---------------- Scope 1.43x ---------------------
+rem ObjectTemplate.vehicleFov 0.7
+rem --------------------------------------------------

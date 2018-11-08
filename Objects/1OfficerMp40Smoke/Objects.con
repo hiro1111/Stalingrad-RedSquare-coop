@@ -1,0 +1,35 @@
+ObjectTemplate.create Kit 1German_Officer_WinterMp40Smoke
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Bomberspotter_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate GerOfficerCap
+ObjectTemplate.addTemplate Chutedisabler
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_AxisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_noicon.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeaxis.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_RandomSmoke_Ger.tga"
+rem ObjectTemplate.addWeaponIcon "Weapon/Icon_SmokeGren_Ger.tga"
+
+ObjectTemplate.setKitIcon 0 "kits/Icon_Mp40GerOfficer_selected.tga"
+ObjectTemplate.setKitName 0 "OFFICER"
+ObjectTemplate.setKitActiveName 0 "ACTIVE OFFICERS"
+
+rem *** The order is important, first the best weapons!
+
+ObjectTemplate.addTemplate WalterP38
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.addTemplate RandomSmokeItem5Ger
+ObjectTemplate.setRandomGeometries 4
+rem ObjectTemplate.addTemplate SmokeGren_Ger_5x1
+ObjectTemplate.addTemplate Knife_SG98Bayonet
+
+
+
+ObjectTemplate.aiTemplate  Assault
+

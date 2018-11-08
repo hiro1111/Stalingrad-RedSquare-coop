@@ -1,0 +1,61 @@
+rem *** Create strategic areas ***
+aiStrategicArea.create alliedbase 470/347 480/357 1 
+aiStrategicArea.create red_square 476/497 481/502 150 
+aiStrategicArea.create city_west 438/503 443/508 200 
+aiStrategicArea.create city_east 523/501 528/506 200
+aiStrategicArea.create north_west 442/540 447/545 150
+aiStrategicArea.create north_east 514/538 519/543 150 
+
+aiStrategicArea.setActive alliedbase
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addNeighbour city_west
+aiStrategicArea.addNeighbour city_east
+aiStrategicArea.addNeighbour red_square
+aiStrategicArea.setSide 2
+
+aiStrategicArea.setActive red_square
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour city_west
+aiStrategicArea.addNeighbour city_east
+aiStrategicArea.addNeighbour north_west
+aiStrategicArea.addNeighbour north_east
+aiStrategicArea.addNeighbour alliedbase
+AIStrategicArea.setOrderPosition Infantry 481/502
+AIStrategicArea.setOrderPosition Tank 481/502
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive city_west
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour red_square
+aiStrategicArea.addNeighbour north_west
+aiStrategicArea.addNeighbour alliedbase
+AIStrategicArea.setOrderPosition Infantry 443/508
+AIStrategicArea.setOrderPosition Tank 443/508
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive city_east
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour red_square
+aiStrategicArea.addNeighbour north_east
+aiStrategicArea.addNeighbour alliedbase
+AIStrategicArea.setOrderPosition Infantry 525/502
+AIStrategicArea.setOrderPosition Tank 525/502
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive north_west
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour red_square
+aiStrategicArea.addNeighbour city_west
+AIStrategicArea.setOrderPosition Infantry 447/545
+AIStrategicArea.setOrderPosition Tank 447/545
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive north_east
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour red_square
+aiStrategicArea.addNeighbour city_east
+AIStrategicArea.setOrderPosition Infantry 519/543
+AIStrategicArea.setOrderPosition Tank 519/543
+aiStrategicArea.setSide 1
+
+
